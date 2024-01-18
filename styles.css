@@ -1,0 +1,15 @@
+body {
+    background-image: url("yash.jpg");
+    background-repeat: repeat-x;
+    animation: scroll 60s linear infinite;
+  }
+  
+  @keyframes scroll {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  
