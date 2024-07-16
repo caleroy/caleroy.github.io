@@ -5,6 +5,33 @@ body {
   background-position: top center, center, bottom;
   animation: scroll 60s horizontal infinite;
 }
+body {
+  background-image: url("yash.jpg");
+  background-size: 100%;
+  background-repeat: repeat-x;
+  background-position: top center;
+  animation: scroll 60s horizontal infinite;
+}
+
+
+
+yash2 {
+
+  background-image: url("yash2.jpg");
+  background-size: 100%;
+  background-repeat: repeat-x;
+  background-position:center;
+  animation: scroll 60s horizontal infinite;
+}
+
+yash2 {
+  background-image: url("yash3.jpg");
+  background-size: 100%;
+  background-repeat: repeat-x;
+  background-position:bottom;
+  animation: scroll 60s horizontal infinite;
+}
+
 
 @keyframes scroll {
   from {
