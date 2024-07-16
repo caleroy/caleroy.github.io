@@ -1,3 +1,12 @@
+html{
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+}
+
 body {
   background-image: url("yash.jpg"), url("yash2.jpg"), url("yash3.jpg");
   background-size: 100%, 100%, 100%;
@@ -7,7 +16,7 @@ body {
 }
 body {
   background-image: url("yash.jpg");
-  background-size: 100%;
+  background-size: 10%;
   background-repeat: repeat-x;
   background-position: top center;
   animation: scroll 60s horizontal infinite;
@@ -18,7 +27,7 @@ body {
 yash2 {
 
   background-image: url("yash2.jpg");
-  background-size: 100%;
+  background-size: 10%;
   background-repeat: repeat-x;
   background-position:center;
   animation: scroll 60s horizontal infinite;
@@ -26,7 +35,7 @@ yash2 {
 
 yash2 {
   background-image: url("yash3.jpg");
-  background-size: 100%;
+  background-size: 10%;
   background-repeat: repeat-x;
   background-position:bottom;
   animation: scroll 60s horizontal infinite;
@@ -38,6 +47,6 @@ yash2 {
       background-position: 0 0, 200px 0, 400px 0;
   }
   to {
-      background-position: 100% 0;
+      background-position: 10% 0;
   }
 }
