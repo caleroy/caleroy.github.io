@@ -1,20 +1,16 @@
 body {
-    background-image: url("yash.jpg"), url("yash2.jpg"), url("yash3.jpg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: repeat-x , repeat-x, repeat-x;
-    background-position: top, center, bottom;
-    animation: scroll 60s horizontal infinite;
+  background-image: url("yash.jpg"), url("yash2.jpg"), url("yash3.jpg");
+  background-size: 100%, 100%, 100%;
+  background-repeat: repeat-x, repeat-x, repeat-x;
+  background-position: top center, center, bottom;
+  animation: scroll 60s horizontal infinite;
+}
+
+@keyframes scroll {
+  from {
+      background-position: 0 0, 200px 0, 400px 0;
   }
-  
-  @keyframes scroll {
-    from {
-      background-position: 0 0, 200 0, 400 0;
-    }
-    to {
+  to {
       background-position: 100% 0;
-    }
   }
-
-
-
-  
+}
