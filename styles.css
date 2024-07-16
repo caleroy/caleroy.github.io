@@ -8,7 +8,7 @@ body {
   
   @keyframes scroll {
     from {
-      background-position: 0 0;
+      background-position: 0 0, 200 0, 400 0;
     }
     to {
       background-position: 100% 0;
